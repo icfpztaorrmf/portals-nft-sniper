@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Ground: dark terminal block -->
+  <rect width="256" height="256" fill="#0b0f0a"/>
+
+  <!-- Outer portal gateway ring: vertical oval, stencil-weight, offset upward -->
+  <ellipse cx="128" cy="118" rx="62" ry="88" fill="none" stroke="#e8f5d8" stroke-width="10"/>
+
+  <!-- Inner portal ring cavity -->
+  <ellipse cx="128" cy="118" rx="38" ry="62" fill="none" stroke="#7dff3a" stroke-width="6"/>
+
+  <!-- Portal gateway vertical seams: breach the rings top and bottom -->
+  <path d="M128 18 L128 52" stroke="#e8f5d8" stroke-width="10" stroke-linecap="square"/>
+  <path d="M128 184 L128 226" stroke="#e8f5d8" stroke-width="10" stroke-linecap="square"/>
+
+  <!-- Sniper scope reticle: crosshair locked on portal center, heavy but precise -->
+  <!-- Horizontal crosshair -->
+  <path d="M22 118 L82 118" stroke="#ffb000" stroke-width="8" stroke-linecap="square"/>
+  <path d="M174 118 L234 118" stroke="#ffb000" stroke-width="8" stroke-linecap="square"/>
+  <!-- Vertical crosshair -->
+  <path d="M128 54 L128 84" stroke="#ffb000" stroke-width="8" stroke-linecap="square"/>
+  <path d="M128 152 L128 182" stroke="#ffb000" stroke-width="8" stroke-linecap="square"/>
+
+  <!-- Corner ticks on the outer ring, cutting outward (stencil brutalist) -->
+  <path d="M66 40 L84 58" stroke="#e8f5d8" stroke-width="8" stroke-linecap="square"/>
+  <path d="M190 40 L172 58" stroke="#e8f5d8" stroke-width="8" stroke-linecap="square"/>
+  <path d="M66 196 L84 178" stroke="#e8f5d8" stroke-width="8" stroke-linecap="square"/>
+  <path d="M190 196 L172 178" stroke="#e8f5d8" stroke-width="8" stroke-linecap="square"/>
+
+  <!-- Center lock: sharp diamond piercing the portal aperture -->
+  <polygon points="128,96 146,118 128,140 110,118" fill="#7dff3a"/>
+  <polygon points="128,106 136,118 128,130 120,118" fill="#0b0f0a"/>
+
+  <!-- Fused reticle center dot -->
+  <rect x="124" y="114" width="8" height="8" fill="#ffb000"/>
+
+  <!-- Predator notch: bite out of the lower-left ring quadrant -->
+  <polygon points="62,164 84,146 92,166 70,184" fill="#0b0f0a"/>
+
+  <!-- Terminal base line: anchored, high-stakes -->
+  <rect x="40" y="232" width="176" height="6" fill="#e8f5d8"/>
+
+  <!-- Small wordmark, optional, stencil block -->
+  <text x="128" y="249" text-anchor="middle" font-family="monospace" font-size="9" font-weight="bold" letter-spacing="3" fill="#ffb000">PORTALS</text>
+</svg>
